@@ -4,4 +4,4 @@
   # vars_files:
   #  - /home/awx/awx_{{ ENVIRONMENT }}.yml
    roles:
-    - role: /home/awx/roles/
+    - role: roles/
