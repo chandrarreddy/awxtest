@@ -1,5 +1,5 @@
 ---
  - name: create file in client server
-    file:
-     path: /tmp/demofile.txt
-     state: touch
+   file:
+    path: /tmp/demofile.txt
+    state: touch
