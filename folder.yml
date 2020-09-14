@@ -1,4 +1,4 @@
 ---
- - name: Task for ping servers
+ - name: create folder
    hosts: "awx_{{ ENVIRONMENT }}"
    include_tasks: createfolder.yml
