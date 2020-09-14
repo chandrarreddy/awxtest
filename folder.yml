@@ -1,4 +1,4 @@
 ---
- - name: create folder
-   hosts: "awx_{{ ENVIRONMENT }}"
-   include_tasks: createfolder.yml
+- name: create folder
+  hosts: "awx_{{ ENVIRONMENT }}"
+  include_tasks: createfolder.yml
