@@ -1,3 +1,3 @@
 ---
-- name: ping details
-  include_tasks: testping.yml
+- name: create file
+  include_tasks: createfile.yml
